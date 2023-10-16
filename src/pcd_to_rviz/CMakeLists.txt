@@ -142,6 +142,9 @@ include_directories(
 add_executable(pcd_to_rviz src/pcd_to_rviz.cpp)
 target_link_libraries(pcd_to_rviz ${catkin_LIBRARIES} ${PCL_LIBRARIES} glog gflags)
 
+add_executable(pcd_add_pose src/pcd_add_pose.cpp)
+target_link_libraries(pcd_add_pose ${catkin_LIBRARIES} ${PCL_LIBRARIES} glog gflags)
+
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
