@@ -122,6 +122,7 @@ include_directories(
 # include
   ${catkin_INCLUDE_DIRS}
   ${PCL_LIBRARIES}
+  "/usr/include/eigen3"
 )
 
 ## Declare a C++ library
